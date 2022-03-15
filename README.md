@@ -1,6 +1,6 @@
 # Solidity-tutorial
 
-I learnt how to generate an account/wallet, query balance, transfer tokens, and call smart contract functions  on the ethereum blockchain i.e both read-only functions and read-write functions where the former may result in a change in the data stored in the blockchain, and the latter purely reads, but never writes...
+I learnt how to generate an account/wallet, query balance, transfer tokens(Test ETH & USDC), and call external smart contract functions on the ethereum blockchain i.e both read-only functions and read-write functions where the former may result in a change in the data stored in the blockchain, and the latter purely reads, but never writes...
 
 ## About Gas and Mining
 
