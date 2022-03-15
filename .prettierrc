@@ -1,30 +1,9 @@
 {
-  "arrowParens": "always",
-  "bracketSpacing": true,
-  "htmlWhitespaceSensitivity": "css",
-  "insertPragma": false,
   "printWidth": 80,
-  "proseWrap": "preserve",
-  "quoteProps": "as-needed",
-  "requirePragma": false,
-  "semi": true,
-  "singleQuote": false,
   "tabWidth": 2,
-  "trailingComma": "es5",
   "useTabs": false,
-  "overrides": [
-    {
-      "files": "*.sol",
-      "options": {
-        "tabWidth": 4,
-        "explicitTypes": "always"
-      }
-    },
-    {
-      "files": "*.md",
-      "options": {
-        "proseWrap": "always"
-      }
-    }
-  ]
+  "semi": true,
+  "trailingComma": "all",
+  "arrowParens": "avoid",
+  "endOfLine": "auto"
 }
