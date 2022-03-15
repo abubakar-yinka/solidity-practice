@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/abubakar-yinka/solidity-practice#readme",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "ethers": "^5.0.7"
   },
   "devDependencies": {
