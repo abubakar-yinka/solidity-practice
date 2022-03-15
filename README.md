@@ -1,6 +1,18 @@
-# solidity-tutorial
+# Solidity-tutorial
 
-Use this pre-configured template to learn Solidity.
+I learnt how to generate an account, query balance, transfer tokens, and call smart contract functions i.e both read-only functions and read-write functions where the former may result in a change in the data stored in the blockchain, and the latter purely reads, but never writes...
+
+**About Gas and Mining
+
+Ethereum is a decentralized network of thousands of computers around the world, and they don’t exactly do work for free. To perform any state change on the blockchain such as storing and updating data, you have to pay the network operators a transaction fee in Ether (ETH), also known as “gas” on Ethereum. This, along with the bonus reward the operators get for adding new blocks to the chain, is what incentivizes them to keep their computers up and running. This process is called “mining” and the network operators are called “miners”. We will be revisiting this later in this tutorial (Gas, Gas Price and Gas Limit).
+
+**The higher the gas fee we pay, the faster the Tx.
+
+We can auction off time on a computer, and the more you are willing to pay for each compute instruction you run on that computer, the more the network operators (miners) will likely be giving you the time. This sure isn’t perfect, as it could have an effect where only the rich are able to have the privilege of using this system. However it is the least bad solution we have until the system is made much more scalable and can accommodate much more transactions.
+
+**Making a Transaction to Call a Smart Contract Function
+
+Read-only functions can be called without creating a transaction and therefore without a transaction fee, unless called as part of a read-write function. Read-write functions on the other hand must be called inside a transaction, and the transaction fee (gas) must be paid. Invoking the ```gimmeSome``` function results in a change in the USDC balances stored in the blockchain, therefore it has to be called inside a transaction.
 
 Features:
 
